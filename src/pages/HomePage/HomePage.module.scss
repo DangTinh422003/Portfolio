@@ -1,7 +1,10 @@
-.HomePage {
-  background: var(--background-color-dark-theme);
-  color: var(--text-color-dark-theme);
+.container {
+  display: flex;
+  align-items: center;
+}
 
+.HomePage {
   height: 100vh;
   width: 100%;
+  background: transparent;
 }

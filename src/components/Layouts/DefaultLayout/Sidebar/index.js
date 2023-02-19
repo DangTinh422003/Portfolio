@@ -22,14 +22,14 @@ function Sidebar() {
           </NavLink>
         </li>
         <li className={clsx('Sidebar__nav_item', styles.Sidebar__nav_item)}>
-          <NavLink to={'/contact'} className={({ isActive }) => (isActive ? styles.isActive : '')}>
+          <NavLink to={'/about'} className={({ isActive }) => (isActive ? styles.isActive : '')}>
             <i class={clsx(styles.icon, 'fas fa-user')}>
               <span className={clsx(styles.menuName)}>ABOUT</span>
             </i>
           </NavLink>
         </li>
         <li className={clsx('Sidebar__nav_item', styles.Sidebar__nav_item)}>
-          <NavLink to={'/about'} className={({ isActive }) => (isActive ? styles.isActive : '')}>
+          <NavLink to={'/contact'} className={({ isActive }) => (isActive ? styles.isActive : '')}>
             <i class={clsx(styles.icon, 'far fa-envelope-open')}>
               <span className={clsx(styles.menuName)}>CONTACT</span>
             </i>
