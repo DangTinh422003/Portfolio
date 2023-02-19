@@ -1,2 +1,1 @@
-import DefaultLayout from './DefaultLayout';
-export { DefaultLayout };
+export { default as DefaultLayout } from './DefaultLayout';
