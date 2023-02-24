@@ -1,6 +1,5 @@
 import clsx from 'clsx';
 import { NavLink } from 'react-router-dom';
-import '../../../../Icon/FontAweSome/font-awesome-pro/css/all.min.css';
 import styles from './Sidebar.module.scss';
 
 function Sidebar() {
