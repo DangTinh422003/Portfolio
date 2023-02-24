@@ -1,0 +1,33 @@
+.Heading {
+  text-align: center;
+  padding: 80px 0;
+  position: relative;
+
+  .titles {
+    font-size: 56px;
+    font-weight: 900;
+    word-spacing: 4px;
+    color: var(--primary-color-dark-theme);
+
+    span {
+      color: var(--text-color-dark-theme);
+    }
+  }
+
+  .subTitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 110px;
+    font-weight: 800;
+    left: 50%;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    top: 50%;
+    color: #222222;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+}

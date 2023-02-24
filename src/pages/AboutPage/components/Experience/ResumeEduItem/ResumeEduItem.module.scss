@@ -1,0 +1,76 @@
+.ResumeEduItem {
+  width: 48%;
+  padding: 0 20px 0 60px;
+  margin-bottom: 48px;
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #ccc;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(19px);
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color-dark-theme);
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    outline: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+  }
+
+  .timer {
+    background-color: #252525;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    opacity: 0.8;
+    padding: 1px 10px;
+  }
+
+  .Heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+    span {
+      font-family: Open Sans, YuGothic, sans-serif;
+      font-size: 15px;
+      opacity: 0.8;
+      padding-left: 26px;
+      position: relative;
+
+      &::before {
+        content: '';
+        width: 10px;
+        height: 2px;
+        background: var(--text-color-light-theme);
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+        border-radius: 12px;
+      }
+    }
+  }
+
+  .desc {
+    color: var(--text-color-light-theme);
+  }
+}

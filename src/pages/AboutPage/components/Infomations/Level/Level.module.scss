@@ -1,0 +1,58 @@
+.level {
+  width: calc(50% - 8px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .infoMoreCard {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #252525;
+    border-radius: 5px;
+    padding: 20px 30px 25px 40px;
+    width: calc(50% - 15px);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    position: relative;
+    color: var(--primary-color-dark-theme);
+
+    i {
+      font-size: 20px;
+      font-weight: 600;
+      position: absolute;
+      top: 25%;
+      left: 15%;
+      z-index: 1;
+    }
+  }
+
+  p {
+    padding-left: 45px;
+    position: relative;
+    ::before {
+      content: '';
+      background-color: #777;
+      display: block;
+      height: 1px;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 30px;
+    }
+
+    > span {
+      font-size: 15px;
+      display: block;
+    }
+  }
+}
