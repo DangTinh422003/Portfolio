@@ -4,6 +4,10 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 45px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.08);
+  }
 
   .skillItemName {
     font-family: Poppins, sans-serif;

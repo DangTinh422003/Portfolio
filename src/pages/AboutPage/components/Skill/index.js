@@ -20,34 +20,34 @@ function Skill() {
       <h1 className={clsx('heading', styles.heading)}>MY SKILLS</h1>
       <div className={clsx('skillList', styles.skillList)}>
         <div className="row">
-          <div className="col-3 d-flex justify-content-center">
+          <div className="col-6 col-md-3 d-flex justify-content-center">
             <SkillItem src={html} name="HTML" />
           </div>
-          <div className="col-3 d-flex justify-content-center">
+          <div className="col-6 col-md-3 d-flex justify-content-center">
             <SkillItem src={css} name="CSS" />
           </div>
-          <div className="col-3 d-flex justify-content-center">
+          <div className="col-6 col-md-3 d-flex justify-content-center">
             <SkillItem src={scss} name="SCSS" />
           </div>
-          <div className="col-3 d-flex justify-content-center">
+          <div className="col-6 col-md-3 d-flex justify-content-center">
             <SkillItem src={js} name="JS" />
           </div>
-          <div className="col-3 d-flex justify-content-center">
+          <div className="col-6 col-md-3 d-flex justify-content-center">
             <SkillItem src={jquery} name="JQUERY" />
           </div>
-          <div className="col-3 d-flex justify-content-center">
+          <div className="col-6 col-md-3 d-flex justify-content-center">
             <SkillItem src={bootstrap} name="BOOSTRAP" />
           </div>
-          <div className="col-3 d-flex justify-content-center">
+          <div className="col-6 col-md-3 d-flex justify-content-center">
             <SkillItem src={responsive} name="RESPONSIVE WEB DESIGN" />
           </div>
-          <div className="col-3 d-flex justify-content-center">
+          <div className="col-6 col-md-3 d-flex justify-content-center">
             <SkillItem src={react} name="REACTJS" />
           </div>
-          <div className="col-3 d-flex justify-content-center">
+          <div className="col-6 col-md-3 d-flex justify-content-center">
             <SkillItem src={node} name="NODEJS" />
           </div>
-          <div className="col-3 d-flex justify-content-center">
+          <div className="col-6 col-md-3 d-flex justify-content-center">
             <SkillItem src={java} name="JAVA OOP" />
           </div>
         </div>

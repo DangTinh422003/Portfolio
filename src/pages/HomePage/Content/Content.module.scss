@@ -4,7 +4,6 @@
 
 .Content {
   height: auto;
-  width: 70vw;
   color: var(--text-color-dark-theme);
   text-align: justify;
   display: flex;
@@ -72,5 +71,13 @@
     padding: 0;
     position: absolute;
     top: 0;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .Content .desc {
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0 1rem;
   }
 }

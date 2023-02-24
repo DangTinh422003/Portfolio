@@ -8,7 +8,7 @@ import Experience from './components/Experience';
 function AboutPage() {
   return (
     <div className={clsx('AboutPage', styles.AboutPage)}>
-      <div className={clsx('container')}>
+      <div className={clsx('container-md container-fluid')}>
         <Heading titles={['ABOUT ', 'ME']} subTitle="RESUME" />
         <Infomations />
         <Skill />

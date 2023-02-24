@@ -35,15 +35,21 @@
 
 @media screen and (max-width: 634px) {
   .Heading {
-    padding: 50px 0;
-
     .titles {
-      font-size: 36px;
+      font-size: 40px;
     }
-
     .subTitle {
       font-size: 80px;
     }
-  }
+  }  
 }
-  
+@media screen and (max-width: 400px) {
+  .Heading {
+    .titles {
+      font-size: 30px;
+    }
+    .subTitle {
+      font-size: 60px;
+    }
+  }  
+}

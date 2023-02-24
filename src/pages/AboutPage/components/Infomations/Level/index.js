@@ -8,7 +8,7 @@ function Level() {
         <div className="col-12 col-sm-6">
           <div className={clsx('infoMoreCard', styles.infoMoreCard)}>
             <h3>
-              2 <i className="fas fa-plus"></i>
+              2 <i className={clsx('fas fa-plus', styles.icon)}></i>
             </h3>
             <p>
               YEARS OF <span>MENTOR CLUB</span>
@@ -18,7 +18,7 @@ function Level() {
         <div className="col-12 col-sm-6">
           <div className={clsx('infoMoreCard', styles.infoMoreCard)}>
             <h3>
-              3<i className="fas fa-plus"></i>
+              3<i className={clsx('fas fa-plus', styles.icon)}></i>
             </h3>
             <p>
               COMPLETED <span>PROJECTS</span>
@@ -28,7 +28,7 @@ function Level() {
         <div className="col-12 col-sm-6">
           <div className={clsx('infoMoreCard', styles.infoMoreCard)}>
             <h3>
-              2<i className="fas fa-plus"></i>
+              2<i className={clsx('fas fa-plus', styles.icon)}></i>
             </h3>
             <p>
               HAPPY <span>CUSTOMER</span>
@@ -38,7 +38,7 @@ function Level() {
         <div className="col-12 col-sm-6">
           <div className={clsx('infoMoreCard', styles.infoMoreCard)}>
             <h3>
-              1<i className="fas fa-plus"></i>
+              1<i className={clsx('fas fa-plus', styles.icon)}></i>
             </h3>
             <p>
               AWARD <span>WON</span>
