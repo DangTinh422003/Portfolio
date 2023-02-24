@@ -5,7 +5,7 @@ function ResumeEduItem({ timer, title, subtitle }) {
   return (
     <div className={clsx('ResumeEduItem', styles.ResumeEduItem)}>
       <div className={clsx('icon', styles.icon)}>
-        <i class="fas fa-bookmark"></i>
+        <i className="fas fa-bookmark"></i>
       </div>
       <div className={clsx('timer', styles.timer)}>{timer} </div>
       <div className={clsx('Heading', styles.Heading)}>

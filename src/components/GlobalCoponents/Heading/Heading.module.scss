@@ -31,3 +31,19 @@
     z-index: -1;
   }
 }
+
+
+@media screen and (max-width: 634px) {
+  .Heading {
+    padding: 50px 0;
+
+    .titles {
+      font-size: 36px;
+    }
+
+    .subTitle {
+      font-size: 80px;
+    }
+  }
+}
+  

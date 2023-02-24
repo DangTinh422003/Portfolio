@@ -19,16 +19,38 @@ function Skill() {
       <hr className={('separator', styles.separator)}></hr>
       <h1 className={clsx('heading', styles.heading)}>MY SKILLS</h1>
       <div className={clsx('skillList', styles.skillList)}>
-        <SkillItem src={html} name="HTML" />
-        <SkillItem src={css} name="CSS" />
-        <SkillItem src={scss} name="SCSS" />
-        <SkillItem src={js} name="JS" />
-        <SkillItem src={jquery} name="JQUERY" />
-        <SkillItem src={bootstrap} name="BOOSTRAP" />
-        <SkillItem src={responsive} name="RESPONSIVE WEB DESIGN" />
-        <SkillItem src={react} name="REACTJS" />
-        <SkillItem src={node} name="NODEJS" />
-        <SkillItem src={java} name="JAVA" />
+        <div className="row">
+          <div className="col-3 d-flex justify-content-center">
+            <SkillItem src={html} name="HTML" />
+          </div>
+          <div className="col-3 d-flex justify-content-center">
+            <SkillItem src={css} name="CSS" />
+          </div>
+          <div className="col-3 d-flex justify-content-center">
+            <SkillItem src={scss} name="SCSS" />
+          </div>
+          <div className="col-3 d-flex justify-content-center">
+            <SkillItem src={js} name="JS" />
+          </div>
+          <div className="col-3 d-flex justify-content-center">
+            <SkillItem src={jquery} name="JQUERY" />
+          </div>
+          <div className="col-3 d-flex justify-content-center">
+            <SkillItem src={bootstrap} name="BOOSTRAP" />
+          </div>
+          <div className="col-3 d-flex justify-content-center">
+            <SkillItem src={responsive} name="RESPONSIVE WEB DESIGN" />
+          </div>
+          <div className="col-3 d-flex justify-content-center">
+            <SkillItem src={react} name="REACTJS" />
+          </div>
+          <div className="col-3 d-flex justify-content-center">
+            <SkillItem src={node} name="NODEJS" />
+          </div>
+          <div className="col-3 d-flex justify-content-center">
+            <SkillItem src={java} name="JAVA OOP" />
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -6,8 +6,14 @@ import Level from './Level';
 function Infomations() {
   return (
     <div className={clsx('infomations', styles.infomations)}>
-      <Detail></Detail>
-      <Level></Level>
+      <div className='row'>
+        <div className="col-12 col-lg-6">
+          <Detail></Detail>
+        </div>
+        <div className="col-12 col-lg-6">
+          <Level></Level>
+        </div>
+      </div>
     </div>
   );
 }

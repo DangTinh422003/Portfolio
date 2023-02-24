@@ -6,7 +6,7 @@ import Content from './Content';
 function HomePage() {
   return (
     <div className={clsx('HomePage', styles.HomePage)}>
-      <div className={clsx('container', styles.container)}>
+      <div className={clsx(styles.container)}>
         {/* Avatar */}
         <Avatar></Avatar>
 

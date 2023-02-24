@@ -33,10 +33,6 @@ function Detail() {
       value: '0862040xxx',
     },
     {
-      key: '',
-      value: 'caodangtinh04022003@gmail.com',
-    },
-    {
       key: 'Major',
       value: 'Computer Science',
     },
@@ -46,9 +42,9 @@ function Detail() {
     <div className={clsx('detail', styles.detail)}>
       <h3>PERSONAL INFOS</h3>
       <ul className={clsx('infolist', styles.infolist)}>
-        {data.map((item) => {
+        {data.map((item, index) => {
           return (
-            <li>
+            <li key={index}>
               <span>{item.key}: </span>
               {item.value}
             </li>
