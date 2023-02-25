@@ -45,10 +45,10 @@ function Info() {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fab fa-facebook-f"></i>
+          <i className="fab fa-facebook-f"></i>
         </a>
         <a href="https://github.com/DangTinh422003?tab=repositories" target="_blank" rel="noreferrer">
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
       </div>
     </div>
