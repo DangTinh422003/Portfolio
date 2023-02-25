@@ -1,0 +1,72 @@
+.Info {
+  padding-right: 32px;
+  margin-bottom: 32px;
+  text-align: justify;
+
+  .heading {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .desc {
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+
+  .infoList {
+    list-style: none;
+
+    li {
+      font-weight: 600;
+      line-height: 25px;
+      margin-bottom: 20px;
+      padding-left: 50px;
+      position: relative;
+
+      span {
+        color: #ccc;
+        display: block;
+        font-weight: 400;
+        opacity: 0.8;
+        padding: 0;
+        text-transform: uppercase;
+      }
+    }
+
+    .icon {
+      color: var(--primary-color-dark-theme);
+      font-size: 30px;
+      left: 0;
+      top: 0;
+      position: absolute;
+    }
+  }
+
+  .contactBtn {
+    display: flex;
+
+    a {
+      text-decoration: none;
+      i {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        color: var(--text-color-dark-theme);
+        background: #2b2a2a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        transition: all 0.15s ease-in-out;
+      }
+
+      &:hover {
+        i {
+          color: var(--text-color-dark-theme);
+          background: var(--primary-color-dark-theme);
+        }
+      }
+    }
+  }
+}

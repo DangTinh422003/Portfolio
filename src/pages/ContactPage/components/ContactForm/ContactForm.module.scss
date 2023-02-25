@@ -1,0 +1,20 @@
+.ContactForm {
+
+  input,
+  textarea {
+    width: 100%;
+    color: #757575;
+    background: #2b2a2a;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 16px 32px;
+    border: none;
+    outline: #111111 2px solid;
+    margin-bottom: 34px;
+    transition: all 0.3s ease;
+
+    &:focus {
+      outline: var(--primary-color-dark-theme) 2px solid;
+    }
+  }
+}

@@ -1,0 +1,88 @@
+.Control {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  margin-bottom: 80px;
+
+  .btn {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    position: relative;
+    padding: 0 0 0 64px;
+    outline: 2px solid var(--primary-color-dark-theme);
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    border-radius: 200px 200px 200px 200px;
+    cursor: pointer;
+  }
+  .btn_text {
+    height: 100%;
+    width: 100%;
+    padding-right: 32px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    border-radius: 200px 200px 200px 200px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+  }
+  .btn_icon {
+    color: #fff;
+    background: var(--primary-color-dark-theme);
+    width: 52px;
+    height: 52px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -1px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    border-radius: 200px 200px 200px 200px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .btn:hover {
+    .btn_text {
+      transform: translate(-45px);
+      background: var(--primary-color-dark-theme);
+    }
+    .btn_icon {
+      width: calc(100% + 2px);
+      justify-content: end;
+      transition: all 0.25s ease-in-out;
+      i {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  // Link In React Router
+  a {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .Control .btn {
+    .btn {
+      margin-right: 25px;
+    }
+  }
+}
