@@ -2,6 +2,17 @@
   height: 100%;
   width: 35%;
   pointer-events: none;
+  animation: slide-in-bottom 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 }
 
 .AvatarWrap {
@@ -20,20 +31,6 @@
     -webkit-box-shadow: 1px 0px 14px 6px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 1px 0px 14px 6px rgba(0, 0, 0, 0.22);
     box-shadow: 1px 0px 14px 6px rgba(0, 0, 0, 0.22);
-  }
-}
-
-.Avatar {
-  .colorBlock {
-    background: var(--primary-color-dark-theme);
-    height: 200%;
-    left: -83%;
-    position: fixed;
-    top: -50%;
-    -webkit-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-    width: 100%;
-    z-index: -1;
   }
 }
 

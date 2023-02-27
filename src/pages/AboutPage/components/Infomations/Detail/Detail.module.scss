@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,600;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .detail {
+  animation: slide-tr 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  @keyframes slide-tr {
+    0% {
+      -webkit-transform: translateY(130px) translateX(-130px);
+      transform: translateY(130px) translateX(-130px);
+    }
+    100% {
+      -webkit-transform: translateY(0) translateX(0);
+      transform: translateY(0) translateX(0);
+    }
+  }
 
   h3 {
     font-size: 26px;

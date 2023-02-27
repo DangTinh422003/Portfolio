@@ -9,7 +9,6 @@ function Avatar() {
       <div className={clsx('AvatarWrap', styles.AvatarWrap)}>
         <img src={avt} alt="Avatar" />
       </div>
-      <div className={clsx('colorBlock', styles.colorBlock)}></div>
     </div>
   );
 }

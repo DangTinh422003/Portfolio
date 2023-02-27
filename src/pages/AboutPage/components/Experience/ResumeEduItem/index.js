@@ -14,8 +14,7 @@ function ResumeEduItem({ timer, title, subtitle }) {
       </div>
       <div className={clsx('desc', styles.desc)}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum aut quisquam repudiandae ullam dolores
-        est alias, provident deleniti, voluptates qui sequi possimus sed quidem iure, incidunt molestiae autem
-        recusandae.
+        est alias, provident deleniti, voluptates qui sequi possimus sed quidem iure.
       </div>
     </div>
   );

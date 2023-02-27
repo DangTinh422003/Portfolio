@@ -8,6 +8,17 @@
   text-align: justify;
   display: flex;
   align-items: center;
+  animation: slide-in-bottom 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
   .Heading {
     color: var(--primary-color-dark-theme);
@@ -16,7 +27,7 @@
     line-height: 62px;
     white-space: nowrap;
 
-    margin: 18px 0 10px;
+    margin: 65px 0 10px;
     padding-left: 70px;
     position: relative;
     text-transform: capitalize;
@@ -48,7 +59,7 @@
 
 @media only screen and (max-width: 992px) {
   .Content {
-    height: auto;
+    height: 95vh;
     width: 75vw;
     position: relative;
     text-align: center;

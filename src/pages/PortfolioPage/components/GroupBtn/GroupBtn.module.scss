@@ -1,0 +1,14 @@
+.GroupBtn {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 766px) {
+  .GroupBtn {
+    justify-content: center;
+  }
+}
