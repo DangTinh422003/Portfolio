@@ -1,5 +1,11 @@
-img { 
+.item {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 30px;
+
+  img { 
   width: 100%;
   height: 100%;
   object-fit: cover;
+  }
 }
